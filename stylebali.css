@@ -1,0 +1,78 @@
+body {
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: black (132, 132, 221);
+    padding-top: 10px;
+}
+
+body > header {
+    background-color: rgb(160, 150, 240);
+}
+
+header > p {
+    text-align: center;
+    color:black
+}
+
+nav {
+    background-color: rgb(199, 198, 250);
+    padding: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-align: center;
+    color: red ;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: green;
+    text-decoration: none;
+
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+    
+}
+
+#content {
+    flex : 3 ;
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+aside { 
+    flex : 1;
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 12px;
+}
+
+aside header h2 {
+    color:black;
+    text-align: center;
+}
